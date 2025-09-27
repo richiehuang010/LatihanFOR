@@ -1,0 +1,31 @@
+kita kan mau buat yang 
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+
+kenapa kita tau kalau ini pengulangan ?
+karena ini beurutan dari 1-5 di setiap barisnya itu hanyalah baris yang sebelumnya ditambahin dengan angka baru
+kenapa harus FOR?
+karena saya mau aja , sebenarnya pakai WHILE juga bisa kok
+
+for i in range(1,5+1) artinya adalah untuk setiap i di antara 1 sampai 6
+prinsip range  adalah jika yang dimasukkan adalah 1-6 maka 6nya tidak termasuk
+
+str(i) itu untuk apa bang?
+str(i) fungsinya adalah mengubah tipe data dari si i menjadi string , karena awalnya tipe data dari i adalah int (angka)
+
+di python ada prinsip bahwa string bisa ditambah dengan string
+contoh : "bagus" + "banget" = bagusbanget
+
+dari semua penjelasan yang di atas makanya kode saya adalah :
+--------------------------------------------------------------
+kata = ""
+for i in range(1,5+1) :
+    kata += str(i)
+    print(kata)
+
+awalnya var kata adalah  str kosong
+i-nya kan diubah jadi str
+makanya bisa ditambah dengan kata
